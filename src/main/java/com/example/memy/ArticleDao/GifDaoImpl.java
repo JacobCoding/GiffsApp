@@ -14,14 +14,14 @@ public class GifDaoImpl implements GifDao {
     private static CategoryDaoImpl categoryDao= new CategoryDaoImpl();
 
     static {
-        gifList.add(new Gif("android-explosion", true,"asdf", categoryDao.findAll().get(0)));
-        gifList.add(new Gif("ben-and-mike", false,"zxcasd", categoryDao.findAll().get(0)));
-        gifList.add(new Gif("book-dominos", false,"zxasdqwe", categoryDao.findAll().get(1)));
-        gifList.add(new Gif("compiler-bot", true,"iwjeoij", categoryDao.findAll().get(1)));
-        gifList.add(new Gif("cowboy-coder", false,"j cljjnadl", categoryDao.findAll().get(2)));
-        gifList.add(new Gif("infinite-andrew", false,"pqoowejj", categoryDao.findAll().get(2)));
-        gifList.add(new Gif("comp1", false,"Tom1", categoryDao.findAll().get(3)));
-        gifList.add(new Gif("comp2", false,"Tom2", categoryDao.findAll().get(3)));
+        gifList.add(new Gif("android-explosion", true,"Tom", categoryDao.findAll().get(0)));
+        gifList.add(new Gif("ben-and-mike", false,"Edd", categoryDao.findAll().get(0)));
+        gifList.add(new Gif("book-dominos", false,"Joe", categoryDao.findAll().get(1)));
+        gifList.add(new Gif("compiler-bot", true,"Steve", categoryDao.findAll().get(1)));
+        gifList.add(new Gif("cowboy-coder", false,"Emily", categoryDao.findAll().get(2)));
+        gifList.add(new Gif("infinite-andrew", false,"Monica", categoryDao.findAll().get(2)));
+        gifList.add(new Gif("comp1", false,"Alex", categoryDao.findAll().get(3)));
+        gifList.add(new Gif("comp2", false,"Kim", categoryDao.findAll().get(3)));
 
     }
 
