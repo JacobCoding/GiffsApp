@@ -1,10 +1,7 @@
 package com.example.memy.controller;
 
-import com.example.memy.ArticleDao.CategoryDaoImpl;
-import com.example.memy.ArticleDao.GifDaoImpl;
-import com.example.memy.Model.Category;
-import com.example.memy.Model.Gif;
-import com.sun.org.apache.xpath.internal.operations.Mod;
+import com.example.memy.articleDao.CategoryDaoImpl;
+import com.example.memy.articleDao.GifDaoImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;

@@ -1,12 +1,10 @@
 package com.example.memy.api;
 
-import com.example.memy.ArticleDao.CategoryDaoImpl;
-import com.example.memy.Model.Category;
+import com.example.memy.articleDao.CategoryDaoImpl;
+import com.example.memy.model.Category;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 public class CategoryApiController {

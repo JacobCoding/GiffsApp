@@ -1,6 +1,6 @@
-package com.example.memy.ArticleDao;
+package com.example.memy.articleDao;
 
-import com.example.memy.Model.Article;
+import com.example.memy.model.Article;
 
 import java.util.ArrayList;
 import java.util.List;

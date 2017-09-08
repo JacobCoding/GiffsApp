@@ -1,7 +1,7 @@
-package com.example.memy.ArticleDao;
+package com.example.memy.articleDao;
 
-import com.example.memy.Model.Category;
-import com.example.memy.Model.Gif;
+import com.example.memy.model.Category;
+import com.example.memy.model.Gif;
 
 import java.util.List;
 

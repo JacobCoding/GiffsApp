@@ -1,6 +1,4 @@
-package com.example.memy.Model;
-
-import java.awt.*;
+package com.example.memy.model;
 
 /**
  * Created by slickender on 02.08.2017.

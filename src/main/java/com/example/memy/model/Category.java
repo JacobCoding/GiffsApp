@@ -1,7 +1,4 @@
-package com.example.memy.Model;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.example.memy.model;
 
 /**
  * Created by slickender on 02.08.2017.

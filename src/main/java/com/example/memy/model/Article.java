@@ -1,4 +1,4 @@
-package com.example.memy.Model;
+package com.example.memy.model;
 
 public class Article {
 
